@@ -10,4 +10,9 @@ console.log(fruit.length);
   //push = Add a new element at the end //
   fruit.push('payra');
   fruit.push('orange');
-  console.log(fruit.length);
+  console.log(fruit);
+
+  //pop()
+  //Removes the last element of an array
+  fruit.pop();
+  console.log(fruit);
