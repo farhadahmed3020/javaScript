@@ -5,6 +5,9 @@ const students =  [
     {id: 54 ,name: 'Fayshal Ahmed'}
 
 ];
+
+ // for loop style //
+
 const output = []
 
 for (let i = 0; i < students.length; i++ ){
@@ -15,6 +18,8 @@ for (let i = 0; i < students.length; i++ ){
 }
 console.log(output);
 
-// const names = students .map( s => s.name);
-//  const Ids = students.map ( s => s.id);
-//  console.log(Ids); 
+// Map  style// 
+
+const names = students .map( s => s.name);
+ const Ids = students.map ( s => s.id);
+ console.log(Ids); 
