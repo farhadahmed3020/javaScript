@@ -5,11 +5,11 @@ const { array } = require("prop-types");
 
 const numbers = [ 12,13,10,11,15,19];
 
-// const total = numbers.reduce(sum ,20);
+const total = numbers.reduce(sum ,20);
 
-// function sum( accumulator ,value){
-//     return accumulator + value ;
-// }
+function sum( accumulator ,value){
+    return accumulator + value ;
+}
 
 console.log(total);
 
